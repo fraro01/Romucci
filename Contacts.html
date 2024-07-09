@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+   <head>
+        
+    <title>Romucci contacts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="logo.png">
+
+    <!-- link al foglio di stile css esterno -->
+    <link rel="stylesheet" href="Romucci_style_sheet.css">
+
+    <!-- css interno -->
+    <style>
+      /* un pò di stile coi commenti non di html, ma di css */
+    </style>
+
+    <!--link allo script JS esterno, che possiamo lasciare qui,
+    oppure anche nel body-->
+    <script src="Romucci_script.js"></script>
+
+   </head>
+
+
+
+   <body style="background-image: url('cucchiaio.jpg');">
+
+    <!-- Barra orizzontale navigazione -->
+    <table id="BarraNavigazione">
+        <tr>
+            <th onclick="navigateTo('index.html')" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Home</th>
+            <th onclick="navigateTo('WhoWeAre.html')" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Who we are</th>
+            <th onclick="navigateTo('OurProducts.html')" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Our products</th>
+            <th onclick="navigateTo('Contacts.html')" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Contacts</th>
+        </tr>
+    </table>
+
+    <!-- Contatti -->
+    <div id="Contacts">
+        <p>
+            If you are interested in our products make sure to contact us!
+            <br>
+            <br>
+            Here you can find us:
+            <br>
+            <br>
+            <b>Email:</b> romucci@gmail.com
+            <br>
+            <b>Phone:</b> +31 xyz
+        </p>
+    </div>
+
+
+</html>

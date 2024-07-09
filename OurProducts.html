@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+
+    <title>Romucci products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="logo.png">
+
+    <!-- link al foglio di stile css esterno -->
+    <link rel="stylesheet" href="Romucci_style_sheet.css">
+
+    <!--link allo script JS esterno, che possiamo lasciare qui,
+    oppure anche nel body-->
+    <script src="Romucci_script.js"></script>
+
+   </head>
+
+
+  <body style="background-image: url('bruschetta.jpg');">
+    
+    <!-- Barra orizzontale navigazione -->
+    <table id="BarraNavigazione">
+        <tr>
+            <th onclick="navigateTo('index.html')" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Home</th>
+            <th onclick="navigateTo('WhoWeAre.html')" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Who we are</th>
+            <th onclick="navigateTo('OurProducts.html')" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Our products</th>
+            <th onclick="navigateTo('Contacts.html')" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Contacts</th>
+        </tr>
+    </table>
+
+    <!-- div che contiene tutti i div dei vari prodotti -->
+    <div id="prodotti">
+
+      <!-- EVO Oil / Catering Blend - Light Fruity -->
+      <div class="prodotto">
+        <h3>
+        EVO Oil / Catering Blend - Light Fruity
+        </h3>
+        <img src="CBLF.PNG">
+        <p>
+        This Extra Virgin Blend is a perfect choice for catering, as it is
+        less fruity and intense than other oils, making it a versatile and
+        adaptable choice for a variety of dishes. It is made from a blend
+        of different olive varieties, including Coratina, Leccino, and
+        Frantoio, which gives it a balanced flavour with hints of green
+        apple, almond, and grass.
+        Perfect for turning every meal into an authentic gastronomic
+        experience.            
+        </p>
+      </div>
+
+      <!-- EVO Oil / Dorica Classico Blend - Medium Intense Fruity -->
+      <div class="prodotto">
+        <h3>
+        EVO Oil / Dorica Classico Blend - Medium Intense Fruity
+        </h3>
+        <img src="DCBMIF.PNG">
+        <p>
+        A medium fruity, harmonious, and complete Extra Virgin Oil.
+        Never toned down, it can respect the sharpest tastes and
+        enhance the most delicate nuances of every dish. It is
+        characterised by its balanced balsamic nuances and artichoke
+        scent. The bitter and spicy tones are sharp but neat. It’s the
+        perfect oil for light and delicate meals and is especially p
+        appreciated by the sea chefs. This “artistic” expression of the
+        Master oil producer will surely never disappoint. 
+        </p>
+      </div>
+
+      <!-- Grapeseed Oil / Uvoilá -->
+      <div class="prodotto">
+        <h3> 
+        Grapessed Oil / Uvoilá
+        </h3>
+        <img src="GOU.PNG">
+        <p>
+        Oil obtained only from Italian grape seeds (Vitis Vinifera L.)
+        cold pressed, bleached, deodorised, deacidified and
+        wintered. The refining process is exclusively physical and
+        mechanical, chemical solvents are not used in any phase
+        of the process. Its richness in antioxidants helps to
+        highlight its protective properties on the overall health of
+        the cardiovascular system. Grapeseed oil has a high smoke
+        point of 215 degrees Celsius, making it ideal for
+        high-temperature cooking methods such as frying,
+        sautéing, and grilling.
+        </p>
+      </div>
+    
+    </div>
+
+  </body>
+
+</html>

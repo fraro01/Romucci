@@ -1,0 +1,123 @@
+body {font-size:100%;
+      margin:0; /*annulliamo ogni margine per il box model html*/
+      padding: 0;
+      /*qui sotto definiamo come visualizzare le immagini di background di ogni pagina*/
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-attachment: fixed;
+     }
+
+
+#BarraNavigazione {
+                   width: 100%;
+                   background-color: black;
+                   color:white; /*colore del testo*/
+                   border-collapse: collapse; /*rendiamo ongi celletta della tabella senza bordi*/
+                   font-size: 125%;
+
+                  }
+/* #BarraNavigazione tr {
+
+                     } */
+#BarraNavigazione th {cursor: pointer; /*quando passiamo sopra col mouse a ogni cella otteniamo il cursor pointer*/
+                      padding:0.3%; /*genera la grandezza della barra di navigazione*/
+}
+
+
+#Home {margin: auto; /*centriamo il div*/
+       background-color: rgb(255, 255, 255, 0.75); /*il terzo parametro indica l'opacità*/
+       border: 1px solid black;
+
+       width: 40%;
+       margin-top: 1.5%;
+       margin-right: 10%;
+
+       text-align: center;
+       padding: 0.3%;
+      
+}
+#WhoWeAre {margin: auto; /*centriamo il div*/
+           background-color: rgb(255, 255, 255, 0.75); /*il terzo parametro indica l'opacità*/
+           border: 1px solid black;
+
+           width: 40%;
+           margin-top: 7%;
+           margin-left: 6%;
+
+           text-align: center;
+           padding: 0.3%;
+
+}
+#Contacts {margin: auto; /*centriamo il div*/
+           background-color: rgb(255, 255, 255, 0.75); /*il terzo parametro indica l'opacità*/
+           border: 1px solid black;
+
+           width: 40%;
+           margin-top: 10%;
+           margin-right: 10%;
+
+           text-align: center;
+
+}
+#Contacts p {
+      font-family: "Times New Roman", Times, serif; /*testo dei contatti*/
+
+}
+
+
+#prodotti {display:flex;
+           margin-top: 5%;
+           align-items: baseline; /*permette una diversa altezza dei vari div che contiene*/
+}
+.prodotto {margin: auto;
+           background: rgb(255, 235, 205, 0.7);
+           margin-top: 1%;
+           width: 32%;
+           padding: 0.4%;
+           overflow: hidden; /*il contenuto non esce dal div*/
+}
+.prodotto img {
+               float: right; /*tutte le immagini dei div "prodotto" sono a destra floating*/
+}
+
+
+/*############################################ LAYOUT RESPONSIVE ########################################################*/
+@media only screen and (max-width: 700px) {   
+                                          body {
+                                                background-size: cover;
+                                                height: 100vh;
+                                          }
+                                          
+                                          #BarraNavigazione {
+                                                             font-size: 100%;
+                                                      }
+                                                      #BarraNavigazione th {
+                                                            padding: 0%;
+                                                      }
+
+                                          #Home {
+                                                margin: auto;
+                                                margin-top: 1%;
+                                                width: 95%;
+                                          }
+                                          #WhoWeAre {
+                                                margin: auto;
+                                                margin-top: 1%;
+                                                width: 95%;
+                                          } 
+                                          #Contacts {
+                                                margin: auto;
+                                                margin-top: 25%;
+                                                width: 95%;
+                                          }
+
+                                          #prodotti {
+                                                      flex-direction: column;
+                                                      margin-top: 1%;
+                                                }
+                                                .prodotto {
+                                                      width: 95%;
+                                                }
+                                                
+                                    }
+/*########################################## FINE LAYOUT RESPONSIVE ######################################################*/
