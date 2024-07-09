@@ -91,6 +91,9 @@ body {font-size:100%;
                                           
                                           #BarraNavigazione {
                                                              font-size: 110%;
+                                                             position: -webkit-sticky; /*specifico per Safari */
+                                                             position: sticky; /*per tutti i motori*/
+                                                             top: 0%; /*sempre legato per rendere sticky la barra di navigazione*/
                                                       }
                                                       #BarraNavigazione th {
                                                             padding: 1.4%; /*per la dimensione della barra di navigazione*/
