@@ -85,14 +85,14 @@ body {font-size:100%;
 @media only screen and (max-width: 700px) {   
                                           body {
                                                 background-size: cover;
-                                                height: 100vh;
+                                                height: 0vh;
                                           }
                                           
                                           #BarraNavigazione {
                                                              font-size: 110%;
                                                       }
                                                       #BarraNavigazione th {
-                                                            padding: 1%;
+                                                            padding: 2%;
                                                       }
 
                                           #Home {
