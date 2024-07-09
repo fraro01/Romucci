@@ -71,6 +71,7 @@ body {font-size:100%;
 }
 .prodotto {margin: auto;
            background: rgb(255, 235, 205, 0.7);
+           border: 1px solid black;
            margin-top: 1%;
            width: 32%;
            padding: 0.4%;
