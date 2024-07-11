@@ -16,9 +16,9 @@ body {font-size:100%;
                    font-size: 125%;
 
                   }
-#BarraNavigazione th {cursor: pointer; /*quando passiamo sopra col mouse a ogni cella otteniamo il cursor pointer*/
-                      padding:0.3%; /*genera la grandezza della barra di navigazione*/
-}
+                  #BarraNavigazione th {cursor: pointer; /*quando passiamo sopra col mouse a ogni cella otteniamo il cursor pointer*/
+                                        padding:0.3%; /*genera la grandezza della barra di navigazione*/
+                                       }
 
 
 #Home {margin: auto; /*centriamo il div*/
@@ -33,20 +33,39 @@ body {font-size:100%;
        padding: 0.3%;
       
 }
-#WhoWeAre {margin: auto; /*centriamo il div*/
-           background-color: rgb(255, 255, 255, 0.75); /*il terzo parametro indica l'opacità*/
-           border: 1px solid black;
 
-           width: 45%;
-           margin-top: 7%;
-           margin-left: 6%;
+#WhoWeAreParent {display: flex
 
-           text-align: center;
-           padding: 0.3%;
+      }
+      #WhoWeAreChild1 {margin: auto; /*centriamo il div*/
+                        background-color: rgb(255, 255, 255, 0.75); /*il terzo parametro indica l'opacità*/
+                        border: 1px solid black;
 
-           overflow: hidden;
+                        width: 40%;
+                        margin-top: 7%;
+                        margin-left: 6%;
 
-}
+                        text-align: center;
+                        padding: 0.3%;
+
+                        overflow: hidden;
+
+                        }
+            #WhoWeAreChild1 img {float: right; 
+                                 width: 33%; 
+                                 height: auto;
+
+                                 display: none;
+                        }
+                  #WhoWeAreChild2 {margin-top: 5%;
+                                    }
+                              #WhoWeAreChild2 img {width: 55%; 
+                                                   height: auto; 
+                                                   float: right;
+                                                   margin-right: 35%;
+
+                                                   }
+
 #Contacts {margin: auto; /*centriamo il div*/
            background-color: rgb(255, 255, 255, 0.75); /*il terzo parametro indica l'opacità*/
            border: 1px solid black;
@@ -57,28 +76,28 @@ body {font-size:100%;
 
            text-align: center;
 
-}
-#Contacts p {
-      font-family: "Times New Roman", Times, serif; /*testo dei contatti*/
+      }
+            #Contacts p {
+                  font-family: "Times New Roman", Times, serif; /*testo dei contatti*/
 
-}
+            }
 
 
 #prodotti {display:flex;
            margin-top: 5%;
            align-items: baseline; /*permette una diversa altezza dei vari div che contiene*/
-}
-.prodotto {margin: auto;
-           background: rgb(255, 235, 205, 0.7);
-           border: 1px solid black;
-           margin-top: 1%;
-           width: 32%;
-           padding: 0.4%;
-           overflow: hidden; /*il contenuto non esce dal div*/
-}
-.prodotto img {
-               float: right; /*tutte le immagini dei div "prodotto" sono a destra floating*/
-}
+      }
+            .prodotto {margin: auto;
+                  background: rgb(255, 235, 205, 0.7);
+                  border: 1px solid black;
+                  margin-top: 1%;
+                  width: 32%;
+                  padding: 0.4%;
+                  overflow: hidden; /*il contenuto non esce dal div*/
+            }
+                  .prodotto img {
+                              float: right; /*tutte le immagini dei div "prodotto" sono a destra floating*/
+                  }
 
 footer {position: fixed; /*posizioniamo il footer in fondo a destra*/
         bottom: 0; 
@@ -115,11 +134,21 @@ footer {position: fixed; /*posizioniamo il footer in fondo a destra*/
                                                 margin-top: 1%;
                                                 width: 97%;
                                           }
-                                          #WhoWeAre {
-                                                margin: auto;
-                                                margin-top: 3%;
-                                                width: 97%;
+                                          #WhoWeAreParent {
+                                                            margin: auto;
+                                                            margin-top: 3%;
+                                                            width: 97%;
                                           } 
+                                                #WhoWeAreChild1 {
+                                                            margin-left: 0;
+                                                            width: 100%
+                                                }
+                                                      #WhoWeAreChild1 img {
+                                                            display: block;
+                                                      }      
+                                                            #WhoWeAreChild2 {display: none;
+
+                                                            }
                                           #Contacts {
                                                 margin: auto;
                                                 margin-top: 20%;
@@ -132,6 +161,11 @@ footer {position: fixed; /*posizioniamo il footer in fondo a destra*/
                                                 }
                                                 .prodotto {
                                                       width: 97%;
+                                                }
+                                          
+                                          /*se vogliamo toccare il footer per dispositivi mobili*/
+                                          footer img {width: 40%;
+                                                      height: auto;
                                                 }
                                                 
                                     }
