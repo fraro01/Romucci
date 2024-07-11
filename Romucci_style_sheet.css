@@ -16,9 +16,6 @@ body {font-size:100%;
                    font-size: 125%;
 
                   }
-/* #BarraNavigazione tr {
-
-                     } */
 #BarraNavigazione th {cursor: pointer; /*quando passiamo sopra col mouse a ogni cella otteniamo il cursor pointer*/
                       padding:0.3%; /*genera la grandezza della barra di navigazione*/
 }
@@ -40,12 +37,14 @@ body {font-size:100%;
            background-color: rgb(255, 255, 255, 0.75); /*il terzo parametro indica l'opacità*/
            border: 1px solid black;
 
-           width: 40%;
+           width: 45%;
            margin-top: 7%;
            margin-left: 6%;
 
            text-align: center;
            padding: 0.3%;
+
+           overflow: hidden;
 
 }
 #Contacts {margin: auto; /*centriamo il div*/
@@ -80,6 +79,18 @@ body {font-size:100%;
 .prodotto img {
                float: right; /*tutte le immagini dei div "prodotto" sono a destra floating*/
 }
+
+footer {position: fixed; /*posizioniamo il footer in fondo a destra*/
+        bottom: 0; 
+        right: 0;
+        
+        }
+        footer img {
+              width: 60%; 
+              height: auto; /*per mantenere la scala di dimensione*/
+              float: right; /*per porlo tutto alla destra del footer senza spazi*/
+              padding: 1% /*per lasciare un minimo di contorno*/
+              }     
 
 
 /*############################################ LAYOUT RESPONSIVE ########################################################*/
