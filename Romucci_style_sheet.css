@@ -144,6 +144,8 @@ footer {position: fixed; /*posizioniamo il footer in fondo a destra*/
                                                 }
                                                       #WhoWeAreChild1 img {
                                                             display: block;
+                                                            width: 50%;
+                                                            height: auto;
                                                       }      
                                                             #WhoWeAreChild2 {display: none;
 
