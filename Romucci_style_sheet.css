@@ -55,9 +55,11 @@ body {font-size:100%;
 
                        width: 37%;
                        height: 100%;
-                        
+                       
+                       
                        text-align: center;
                        padding: 0.3%;
+                       padding-top: 7%;
 
                         }
             #WhoWeAreChild1 img {float: right;
@@ -145,11 +147,12 @@ footer {position: fixed; /*posizioniamo il footer in fondo a destra*/
                                                             height: auto;
                                           } 
                                                 #WhoWeAreChild1 {
+                                                            padding: 0.3%;
                                                             width: 100%;
                                                 }
                                                       #WhoWeAreChild1 img {
                                                             display: inline-block;
-                                                            width: 50%;
+                                                            width: 60%;
                                                             height: auto;
                                                       }      
                                                             #WhoWeAreChild2 {display: none;
