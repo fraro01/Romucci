@@ -25,7 +25,7 @@ body {font-size:100%;
                   }
                   #BarraNavigazione th {cursor: pointer; /*quando passiamo sopra col mouse a ogni cella otteniamo il cursor pointer*/
                                         padding:0.3%; /*genera la grandezza della barra di navigazione*/
-                                        border: 1px solid #28282B; /*mostriamo un poco di divisione tra le celle*/
+                                        border: 1px solid #39393b; /*mostriamo un poco di divisione tra le celle*/
                                     }
 
 
