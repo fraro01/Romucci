@@ -5,8 +5,15 @@ body {font-size:100%;
       background-repeat: no-repeat;
       background-size: 100% 100%;
       background-attachment: fixed;
+      
+      /*TODO!*/
+      height: 100%;
      }
-
+     /*TODO!*/
+     html {
+      height: 100%;
+      margin: 0;
+     }
 
 #BarraNavigazione {
                    width: 100%;
@@ -25,8 +32,8 @@ body {font-size:100%;
        background-color: rgb(255, 255, 255, 0.75); /*il terzo parametro indica l'opacità*/
        border: 1px solid black;
 
-       width: 40%;
-       margin-top: 1.5%;
+       width: 50%;
+       margin-top: 4%;
        margin-right: 10%;
 
        text-align: center;
@@ -34,36 +41,34 @@ body {font-size:100%;
       
 }
 
-#WhoWeAreParent {display: flex
+#WhoWeAreParent {display: flex;
+                 justify-content: space-around;
+                 
+                 height:93vh;
+                 overflow: hidden;
+                 padding:0.3%;
 
       }
-      #WhoWeAreChild1 {margin: auto; /*centriamo il div*/
-                        background-color: rgb(255, 255, 255, 0.75); /*il terzo parametro indica l'opacità*/
-                        border: 1px solid black;
+      #WhoWeAreChild1 {
+                       background-color: rgb(255, 255, 255, 0.75); /*il terzo parametro indica l'opacità*/
+                       border: 1px solid black;
 
-                        width: 40%;
-                        margin-top: 7%;
-                        margin-left: 6%;
-
-                        text-align: center;
-                        padding: 0.3%;
-
-                        overflow: hidden;
+                       width: 37%;
+                       height: 100%;
+                        
+                       text-align: center;
+                       padding: 0.3%;
 
                         }
-            #WhoWeAreChild1 img {width: 50%; 
-                                 height: auto;
-                                 float: right;
-
+            #WhoWeAreChild1 img {float: right;
                                  display: none; /*se non è visualizzata su dispositivo mobile non viene mostrata*/
                         }
-                  #WhoWeAreChild2 {margin-top: 5%;
+                  #WhoWeAreChild2 {
+                                   width: 37%;
+                                   height: 100%;
                                     }
-                              #WhoWeAreChild2 img {width: 55%; 
-                                                   height: auto; 
-                                                   float: right;
-                                                   margin-right: 35%;
-
+                              #WhoWeAreChild2 img {width:auto; 
+                                                   height: 100%; 
                                                    }
 
 #Contacts {margin: auto; /*centriamo il div*/
@@ -84,16 +89,16 @@ body {font-size:100%;
 
 
 #prodotti {display:flex;
-           margin-top: 5%;
-           align-items: baseline; /*permette una diversa altezza dei vari div che contiene*/
+           flex-direction: column;
+           
           }
-            .prodotto {margin: auto;
+            .prodotto {
+                       margin-left: 1%;
+                       margin-top: 0.2%;
                        background: rgb(255, 235, 205, 0.7);
                        border: 1px solid black;
-                       margin-top: 1%;
-                       width: 32%;
+                       width: 35%;
                        padding: 0.4%;
-                       overflow: hidden; /*il contenuto non esce dal div*/
                       }
                   .prodotto img {float: right; /*tutte le immagini dei div "prodotto" sono a destra floating*/
                                 }
@@ -104,7 +109,7 @@ footer {position: fixed; /*posizioniamo il footer in fondo a destra*/
         
         }
         footer img {
-              width: 50%; 
+              width: 75%; 
               height: auto; /*per mantenere la scala di dimensione*/
               float: right; /*per porlo tutto alla destra del footer senza spazi*/
               padding: 1% /*per lasciare un minimo di contorno*/
@@ -137,13 +142,13 @@ footer {position: fixed; /*posizioniamo il footer in fondo a destra*/
                                                             margin: auto;
                                                             margin-top: 3%;
                                                             width: 97%;
+                                                            height: auto;
                                           } 
                                                 #WhoWeAreChild1 {
-                                                            margin-left: 0;
-                                                            width: 100%
+                                                            width: 100%;
                                                 }
                                                       #WhoWeAreChild1 img {
-                                                            display: block;
+                                                            display: inline-block;
                                                             width: 50%;
                                                             height: auto;
                                                       }      
