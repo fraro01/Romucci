@@ -134,7 +134,7 @@ footer {position: fixed; /*posizioniamo il footer in fondo a destra*/
                                                              top: 0%; /*sempre legato per rendere sticky la barra di navigazione*/
                                                       }
                                                       #BarraNavigazione th {
-                                                            padding: 1.2%; /*per la dimensione della barra di navigazione*/
+                                                            padding: 1.3%; /*per la dimensione della barra di navigazione*/
                                                       }
 
                                           #Home {
