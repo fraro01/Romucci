@@ -24,7 +24,7 @@ body {font-size:100%;
 
                   }
                   #BarraNavigazione th {cursor: pointer; /*quando passiamo sopra col mouse a ogni cella otteniamo il cursor pointer*/
-                                        padding:0.25%; /*genera la grandezza della barra di navigazione*/
+                                        padding:0.3%; /*genera la grandezza della barra di navigazione*/
                                         border: 1px solid #28282B; /*mostriamo un poco di divisione tra le celle*/
                                     }
 
@@ -134,7 +134,7 @@ footer {position: fixed; /*posizioniamo il footer in fondo a destra*/
                                                              top: 0%; /*sempre legato per rendere sticky la barra di navigazione*/
                                                       }
                                                       #BarraNavigazione th {
-                                                            padding: 1.4%; /*per la dimensione della barra di navigazione*/
+                                                            padding: 1.3%; /*per la dimensione della barra di navigazione*/
                                                       }
 
                                           #Home {
