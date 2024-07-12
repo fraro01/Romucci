@@ -25,7 +25,8 @@ body {font-size:100%;
                   }
                   #BarraNavigazione th {cursor: pointer; /*quando passiamo sopra col mouse a ogni cella otteniamo il cursor pointer*/
                                         padding:0.3%; /*genera la grandezza della barra di navigazione*/
-                                       }
+                                        border: 1px solid #28282B; /*mostriamo un poco di divisione tra le celle*/
+                                    }
 
 
 #Home {margin: auto; /*centriamo il div*/
@@ -58,8 +59,9 @@ body {font-size:100%;
                        
                        
                        text-align: center;
+                       font-size: 125%;
                        padding: 0.3%;
-                       padding-top: 7%;
+                       padding-top: 3%;
 
                         }
             #WhoWeAreChild1 img {float: right;
@@ -148,6 +150,7 @@ footer {position: fixed; /*posizioniamo il footer in fondo a destra*/
                                           } 
                                                 #WhoWeAreChild1 {
                                                             padding: 0.3%;
+                                                            font-size: 100%;
                                                             width: 100%;
                                                 }
                                                       #WhoWeAreChild1 img {
