@@ -113,7 +113,7 @@ footer {position: fixed; /*posizioniamo il footer in fondo a destra*/
         
         }
         footer img {
-              width: 33%; 
+              width: 25%; 
               height: auto; /*per mantenere la scala di dimensione*/
               float: right; /*per porlo tutto alla destra del footer senza spazi*/
               padding: 1% /*per lasciare un minimo di contorno*/
