@@ -1,5 +1,5 @@
 body {font-size:100%;
-      margin:0; /*annulliamo ogni margine per il box model html*/
+      margin:0; /*annulliamo ogni margine e padding per il box model html*/
       padding: 0;
       /*qui sotto definiamo come visualizzare le immagini di background di ogni pagina*/
       background-repeat: no-repeat;
@@ -56,7 +56,7 @@ body {font-size:100%;
 
                        margin-top: 3%;
                        width: 37%;
-                       height: fit-content; /*l'altezza del divsi aggiusta sul contenuto, pur avendo impostato la larghgezza*/
+                       height: fit-content; /*l'altezza del divsi aggiusta sul contenuto, pur avendo impostato la larghezza*/
                                               
                        text-align: center;
                        padding: 0.3%;
@@ -80,6 +80,7 @@ body {font-size:100%;
            margin-top: 10%;
            margin-right: 10%;
 
+           padding: 0.3%;
            text-align: center;
 
       }
@@ -116,7 +117,7 @@ footer {position: fixed; /*posizioniamo il footer in fondo a destra*/
 
 
 /*############################################ LAYOUT RESPONSIVE ########################################################*/
-@media only screen  and (orientation: portrait) and (max-width: 853px) {   
+@media only screen and (max-width: 853px) {   
                                           body {
                                                 background-size: cover;
                                                
