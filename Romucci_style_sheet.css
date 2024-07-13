@@ -93,15 +93,14 @@ body {font-size:100%;
 
 
 #prodotti {display:flex;
-           flex-direction: column;
-           
+           margin-top: 7%;
+           justify-content: space-around;
           }
             .prodotto {
-                       margin-left: 1%;
                        margin-top: 0.2%;
                        background: rgb(255, 235, 205, 0.7);
                        border: 1px solid black;
-                       width: 35%;
+                       width: 30%;
                        padding: 0.4%;
                       }
                   .prodotto img {float: right; /*tutte le immagini dei div "prodotto" sono a destra floating*/
