@@ -145,6 +145,7 @@ footer {position: fixed; /*posizioniamo il footer in fondo a destra*/
                                                             height: auto;
                                           } 
                                                 #WhoWeAreChild1 {
+                                                            margin-top: 0;
                                                             padding: 0.3%;
                                                             font-size: 100%;
                                                             width: 100%;
@@ -165,7 +166,7 @@ footer {position: fixed; /*posizioniamo il footer in fondo a destra*/
 
                                          #prodotti {
                                                    flex-direction: column;
-                                                   margin-top: 1%;
+                                                   margin-top: 0;
                                           } 
                                                 .prodotto {margin: auto; /*centriamo*/
                                                            margin-top: 1%;
