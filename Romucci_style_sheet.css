@@ -140,7 +140,7 @@ footer {position: fixed; /*posizioniamo il footer in fondo a destra*/
                                           }
                                           #WhoWeAreParent {
                                                             margin: auto;
-                                                            margin-top: 3%;
+                                                            margin-top: 1%;
                                                             width: 97%;
                                                             height: auto;
                                           } 
@@ -154,9 +154,9 @@ footer {position: fixed; /*posizioniamo il footer in fondo a destra*/
                                                             width: 60%;
                                                             height: auto;
                                                       }      
-                                                            #WhoWeAreChild2 {display: none;
+                                                #WhoWeAreChild2 {display: none;
 
-                                                            }
+                                                }
                                           #Contacts {
                                                 margin: auto;
                                                 margin-top: 20%;
@@ -168,6 +168,7 @@ footer {position: fixed; /*posizioniamo il footer in fondo a destra*/
                                                    margin-top: 1%;
                                           } 
                                                 .prodotto {margin: auto; /*centriamo*/
+                                                           margin-top: 1%;
                                                            width: 97%;
                                                 }
                                                 

@@ -13,9 +13,16 @@
     <!-- link al foglio di stile css esterno -->
     <link rel="stylesheet" href="Romucci_style_sheet.css">
 
-    <!-- css interno -->
+    <!-- css CSS POICHè è L'UNICO FOOTER DIVERSO  -->
     <style>
-      /* un pò di stile coi commenti non di html, ma di css */
+       footer img {
+                    width:25%;
+                } 
+       @media only screen and (max-width: 853px) {
+                                                    footer img {
+                                                        width: 50%;
+                                                    }
+                                                }
     </style>
 
     <!--link allo script JS esterno, che possiamo lasciare qui,
@@ -62,9 +69,9 @@
         </p>
     </div>
 
-    <!-- footer con logo E CSS INLINE POICHè è L'UNICO FOOTER DIVERSO -->
+    <!-- footer con logo -->
     <footer>
-        <img src="footer.png" alt="Romucci Food Trading" style="width: 25%;">
+        <img src="footer.png" alt="Romucci Food Trading">
     </footer>
 
    </body>
